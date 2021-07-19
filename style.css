@@ -1,0 +1,159 @@
+/* General styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(233, 47%, 7%);
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  letter-spacing: 0.1rem;
+  color: hsl(0, 0%, 100%);
+}
+
+h3 {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+}
+
+/* ------------------------ */
+.card {
+  max-width: 375px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 7px;
+  overflow: auto;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 1440px) {
+  .card {
+    min-width: 1440px;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+  }
+}
+
+.card-header {
+  background-color: hsl(277, 64%, 61%);
+}
+
+@media (min-width: 1440px) {
+  .card-header {
+    width: 37%;
+  }
+}
+
+.card-header img {
+  opacity: 75%;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: -4px;
+}
+
+.desktop-img {
+  display: none;
+}
+
+@media (min-width: 1440px) {
+  .card-header img {
+    width: auto;
+  }
+
+  .desktop-img {
+    display: block;
+  }
+
+  .mobile-img {
+    display: none;
+  }
+}
+
+.card-main {
+  padding-top: 2rem;
+}
+
+@media (min-width: 1440px) {
+  .card-main {
+    width: 63%;
+    text-align: left;
+    padding: 5em 5em 0 1em;
+  }
+}
+
+.card-main h1 {
+  padding: 0 2em;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1440px) {
+  .card-main h1 {
+    margin-bottom: 1.5em;
+  }
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+.card-main-paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Inter", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7rem;
+  padding: 0 1.5rem;
+  margin-bottom: 2.8rem;
+}
+
+@media (min-width: 1440px) {
+  .card-main-paragraph {
+    line-height: 2.3rem;
+    padding: 0 3.5em;
+    margin-bottom: 4em;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-main-headings {
+    display: flex;
+    gap: 5em;
+    padding-left: 4em;
+  }
+}
+
+.heading {
+  line-height: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.attribution {
+  color: hsl(277, 64%, 31%);
+}
+
+.attribution a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.attribution a:hover {
+  border-bottom: 1px solid;
+}
