@@ -35,7 +35,7 @@ h3 {
 }
 
 /* ------------------------ */
-.main {
+.card {
   max-width: 375px;
   background-color: hsl(244, 38%, 16%);
   border-radius: 7px;
@@ -43,26 +43,11 @@ h3 {
   margin-bottom: 2rem;
 }
 
-@media (min-width: 1440px) {
-  .main {
-    min-width: 1440px;
-    display: flex;
-    flex-direction: row-reverse;
-    overflow: hidden;
-  }
-}
-
-.main-header {
+.header {
   background-color: hsl(277, 64%, 61%);
 }
 
-@media (min-width: 1440px) {
-  .main-header {
-    width: 37%;
-  }
-}
-
-.main-header img {
+.header img {
   opacity: 75%;
   width: 100%;
   background-size: cover;
@@ -73,49 +58,20 @@ h3 {
   display: none;
 }
 
-@media (min-width: 1440px) {
-  .main-header img {
-    width: auto;
-  }
-
-  .desktop-img {
-    display: block;
-  }
-
-  .mobile-img {
-    display: none;
-  }
-}
-
-.main-main {
+.main {
   padding-top: 2rem;
 }
 
-@media (min-width: 1440px) {
-  .main-main {
-    width: 63%;
-    text-align: left;
-    padding: 5em 7em 0 1em;
-  }
-}
-
-.main-main h1 {
+.main h1 {
   padding: 0 2em;
   margin-bottom: 1.5rem;
-}
-
-@media (min-width: 1440px) {
-  .main-main h1 {
-    padding-right: 5em;
-    margin-bottom: 1.5em;
-  }
 }
 
 span {
   color: hsl(277, 64%, 61%);
 }
 
-.main-main-paragraph {
+.main-paragraph {
   color: hsla(0, 0%, 100%, 0.75);
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
@@ -123,22 +79,6 @@ span {
   line-height: 1.7rem;
   padding: 0 1.5rem;
   margin-bottom: 2.8rem;
-}
-
-@media (min-width: 1440px) {
-  .main-main-paragraph {
-    line-height: 2.3rem;
-    padding: 0 3.5em;
-    margin-bottom: 4em;
-  }
-}
-
-@media (min-width: 1440px) {
-  .main-main-headings {
-    display: flex;
-    gap: 5em;
-    padding-left: 4em;
-  }
 }
 
 .heading {
@@ -157,4 +97,54 @@ span {
 
 .attribution a:hover {
   border-bottom: 1px solid;
+}
+
+/* Media Queries */
+
+@media (min-width: 1440px) {
+  .card {
+    min-width: 1440px;
+    display: flex;
+    flex-direction: row-reverse;
+    overflow: hidden;
+  }
+
+  .header {
+    width: 37%;
+  }
+
+  .header img {
+    width: auto;
+  }
+
+  .desktop-img {
+    display: block;
+  }
+
+  .mobile-img {
+    display: none;
+  }
+
+  .main {
+    width: 63%;
+    text-align: left;
+    padding: 5em 7em 0 1em;
+  }
+
+  .main h1 {
+    padding-right: 5em;
+    margin-bottom: 1.5em;
+  }
+
+  .main-paragraph {
+    line-height: 2.3rem;
+    padding: 0 3.5em;
+    margin-bottom: 4em;
+  }
+
+  .main-headings {
+    display: flex;
+    gap: 5em;
+    padding-left: 4em;
+  }
 }
