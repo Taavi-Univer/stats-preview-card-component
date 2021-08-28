@@ -43,6 +43,7 @@ h3 {
   grid-template-areas:
     "pic"
     "con";
+  overflow-y: auto;
 }
 
 .header {
@@ -94,15 +95,6 @@ span {
 
 .attribution {
   color: hsl(277, 64%, 31%);
-}
-
-.attribution a {
-  text-decoration: none;
-  font-weight: 700;
-}
-
-.attribution a:hover {
-  border-bottom: 1px solid;
 }
 
 @media (min-width: 72em) {
