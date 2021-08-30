@@ -47,11 +47,11 @@ h3 {
 
 .header {
   grid-area: pic;
-  background-color: hsl(277, 64%, 61%);
+  background-color: hsl(277, 96%, 45%);
 }
 
 .mobile-img {
-  opacity: 75%;
+  opacity: 50%;
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -109,7 +109,7 @@ span {
 
   .desktop-img {
     display: block;
-    opacity: 75%;
+    opacity: 55%;
     height: 100%;
   }
 
