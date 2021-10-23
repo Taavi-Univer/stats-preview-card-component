@@ -13,7 +13,7 @@ Mobile view:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/statspreviewcardcomponent-v-z2CEaR2
+- Solution URL: https://www.frontendmentor.io/solutions/statspreviewcardcomponent-f-rq80Yji
 - Live Site URL: https://taavi-univer.github.io/stats-preview-card-component/
 
 ### Built with
