@@ -4,12 +4,11 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 
-Desktop view:
-![](./images/co555-stats-preview-card-component-desktop.png)
-
 Mobile view:
-![](./images/co555-stats-preview-card-component-mobile.png)
+![](./design/taavi-univer.github.io_stats-preview-card-component_mobile.png)
 
+Desktop view:
+![](./design/taavi-univer.github.io_stats-preview-card-component_desktop.png)
 
 ### Links
 
