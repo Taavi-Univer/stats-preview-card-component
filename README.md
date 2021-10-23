@@ -12,7 +12,7 @@ Desktop view:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/statspreviewcardcomponent-f-rq80Yji
+- Solution URL: https://www.frontendmentor.io/solutions/stats-preview-card-component-SubREtNNg
 - Live Site URL: https://taavi-univer.github.io/stats-preview-card-component/
 
 ### Built with
